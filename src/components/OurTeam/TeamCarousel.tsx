@@ -37,17 +37,17 @@ As a dedicated advocate for youth-led initiatives, she continues to drive progra
 His research excellence has been recognized with multiple prestigious awards, including the American Heart Association (AHA) Kidney in Cardiovascular Disease (KCVD) New Investigator Award, the David and Barbara Pieper Award for Outstanding Graduate Student, Marion Banhart Outstanding Graduate Student Award, and the American Physiological Society’s Top Predoctoral Poster Presentation Award. He is also a recipient of the AHA Predoctoral Fellowship, a grant he has received to study loop diuretic resistance in heart failure.`,
       image: "/images/isaac.jpg",
    },
-   {
-      name: "Justice Essiel",
-      role: "Technology Associate",
-      description: "The Co-Founder of Ecofundme and CTO at Ecoclime Africa. Ecofundme is the world's most advanced Climate Finance application. Its solves the funding and accountability gap in the climate financing market.",
-      image: "/images/justice.jpg",
-   },
+   // {
+   //    name: "Justice Essiel",
+   //    role: "Technology Associate",
+   //    description: "The Co-Founder of Ecofundme and CTO at Ecoclime Africa. Ecofundme is the world's most advanced Climate Finance application. Its solves the funding and accountability gap in the climate financing market.",
+   //    image: "/images/justice.jpg",
+   // },
 ];
 
 
 const TeamCarousel = () => {
-   const [selectedIndex, setSelectedIndex] = useState(2);
+   const [selectedIndex, setSelectedIndex] = useState(1);
    const [visibleMembers, setVisibleMembers] = useState<typeof teamMembers>([]);
 
    const updateVisibleMembers = useCallback(() => {
